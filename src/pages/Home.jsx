@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Ctahome from "../components/cta/Ctahome";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <Ctahome />
+      <div>Home</div>
+      
+    </>
+  );
+};
 
-export default Home
+export default Home;

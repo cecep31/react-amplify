@@ -2,10 +2,9 @@ import React from "react";
 import Button from "../components/Button";
 
 const Login = () => {
-
-    function handlaLogin(e) {
-        e.preventDefault();
-    }
+  function handlaLogin(e) {
+    e.preventDefault();
+  }
   return (
     <div className="w-full max-w-sm mx-auto overflow-hidden bg-slate-200 rounded-lg shadow-xl mt-20 dark:bg-gray-800">
       <div className="px-6 py-4">
@@ -62,6 +61,7 @@ const Login = () => {
           Register
         </a>
       </div>
+     
     </div>
   );
 };

@@ -11,9 +11,8 @@ class App extends Component {
     return (
       <div className="">
         <Navbar />
-        <div className="grid justify-items-center ">
-        
-          
+        <div className="grid justify-items-center">
+      
           <div className="mt-4 ">
             <Routes>
               <Route path="/" element={<Home />} />
